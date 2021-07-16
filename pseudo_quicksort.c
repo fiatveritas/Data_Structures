@@ -36,7 +36,8 @@ int main(){
 		printf("%d ", ptr[i]);
 	}
 	printf("\n");
-	ptr = NULL;
+	//ptr = NULL;
+	free(ptr);
 
 	return 0;
 }
